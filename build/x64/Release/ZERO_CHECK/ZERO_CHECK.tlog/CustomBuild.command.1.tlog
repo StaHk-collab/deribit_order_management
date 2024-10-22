@@ -1,0 +1,10 @@
+^C:\USERS\WELCOME\DOCUMENTS\GOQUANT\DERIBIT_ORDER_MANAGEMENT\BUILD\CMAKEFILES\81FF0CEA8D4E9B578EB22E358C1B9179\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/WELCOME/Documents/GoQuant/deribit_order_management -BC:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/DeribitOrderManagement.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

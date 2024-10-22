@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "bd9f0fb3-e69a-4f07-9f71-499f0d73c010",
+		"name": "Deribit Order Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32256262"
+	},
+	"item": [
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"public/auth\",\n  \"params\": {\n    \"grant_type\": \"client_credentials\",\n    \"scope\": \"session:apiconsole-y84wh0cz3dr expires:2592000\",\n    \"client_id\": \"cYOq2inf\",  // Replace with your API key\n    \"client_secret\": \"VUNEksJeTLar2o009ptfobvzrjUeKfd_K3xrbfWioR8\" // Replace with your secret key\n  },\n  \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.deribit.com/api/v2/public/auth",
+					"protocol": "https",
+					"host": [
+						"test",
+						"deribit",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"public",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "place_order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"1729583201723.1U-Od7_3.CQ_MHCOCLYFYjbpso3UOgeiKiz92KQeQymRTY0p_DteRL33UohkU3B-hIFTncoAG3PiSHapyQ3RZVpy-CO2T_WwAJ1pgCmJrZzKfgrBYrcwo_4I6lSIIsg1sAw-qPta_EQoBjsbDr4wvA7YBMZvwsO2R8rAQfkd0S9lzjyLNGU3xNWR7Kxndjm460HWQ88f8ArV0oMD3jJ6YLbHZoxQ3S16HAo0G0MggzADmnCL1LZlAF12RcaLwiXlsgePiaKphXmJwobGAAW2jON5sEx1XP3jZj4dQS7bVq0jlYMV2KpB9bDM0C3ZzHbPTxzb2Zc1NSSNn\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"private/place_order\",\n  \"params\": {\n    \"instrument_name\": \"BTC-PERPETUAL\",  // Change to your desired instrument\n    \"amount\": 1.0,  // Change to your desired amount\n    \"price\": 30000.0,  // Change to your desired price\n    \"type\": \"limit\",  // or \"market\"\n    \"side\": \"buy\"  // or \"sell\"\n  },\n  \"id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.deribit.com/api/v2/private/place_order",
+					"protocol": "https",
+					"host": [
+						"test",
+						"deribit",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"private",
+						"place_order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cancel_order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"1729583201723.1U-Od7_3.CQ_MHCOCLYFYjbpso3UOgeiKiz92KQeQymRTY0p_DteRL33UohkU3B-hIFTncoAG3PiSHapyQ3RZVpy-CO2T_WwAJ1pgCmJrZzKfgrBYrcwo_4I6lSIIsg1sAw-qPta_EQoBjsbDr4wvA7YBMZvwsO2R8rAQfkd0S9lzjyLNGU3xNWR7Kxndjm460HWQ88f8ArV0oMD3jJ6YLbHZoxQ3S16HAo0G0MggzADmnCL1LZlAF12RcaLwiXlsgePiaKphXmJwobGAAW2jON5sEx1XP3jZj4dQS7bVq0jlYMV2KpB9bDM0C3ZzHbPTxzb2Zc1NSSNn\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"private/cancel\",\n  \"params\": {\n    \"order_id\": \"29119672418\"\n  },\n  \"id\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.deribit.com/api/v2/private/cancel",
+					"protocol": "https",
+					"host": [
+						"test",
+						"deribit",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"private",
+						"cancel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modify_order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"1729583201723.1U-Od7_3.CQ_MHCOCLYFYjbpso3UOgeiKiz92KQeQymRTY0p_DteRL33UohkU3B-hIFTncoAG3PiSHapyQ3RZVpy-CO2T_WwAJ1pgCmJrZzKfgrBYrcwo_4I6lSIIsg1sAw-qPta_EQoBjsbDr4wvA7YBMZvwsO2R8rAQfkd0S9lzjyLNGU3xNWR7Kxndjm460HWQ88f8ArV0oMD3jJ6YLbHZoxQ3S16HAo0G0MggzADmnCL1LZlAF12RcaLwiXlsgePiaKphXmJwobGAAW2jON5sEx1XP3jZj4dQS7bVq0jlYMV2KpB9bDM0C3ZzHbPTxzb2Zc1NSSNn\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"private/edit\",\n  \"params\": {\n    \"order_id\": \"29119672418\",\n    \"amount\": 4.0,  // Change to the new amount\n    \"price\": 10000.0  // Change to the new price\n  },\n  \"id\": 3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.deribit.com/api/v2/private/edit",
+					"protocol": "https",
+					"host": [
+						"test",
+						"deribit",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"private",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_order_book",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"public/get_order_book\",\n  \"params\": {\n    \"instrument_name\": \"BTC-PERPETUAL\"\n  },\n  \"id\": 4\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.deribit.com/api/v2/public/get_order_book",
+					"protocol": "https",
+					"host": [
+						"test",
+						"deribit",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"public",
+						"get_order_book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_current_positions",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"1729583382589.1ScuncXC.qgB-B0b2oWFoFHWAiksj1WmxLtfP1qn4YhMlqKBP8FKgmI_0lc_izJdPVyrmXG08f1GTY9FBPoxXOEIPW55NlxwKPzG6MWyp2IZ_zSxG60KLs-wbwOjVEwQFUB_OoxUznDv5x3i0sY1ntyPSO-1usro75CNz7iHOu97a1WPS9ZldxILLLMUpQwaUL8Ju9JXvLMd_HE7j5n1j8g7OBxZunbjMLPfncQgKsNg0a8xkp9QWd7CKZPskzTb-Te0UybwRT1xnq8q-xzwH-eLb3bNNjgyZEBpMmJ_mxuddlsF8k5tWxETdt6qefYBNUssND3RUzTe2\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"private/get_positions\",\n  \"params\": {\n    \"currency\": \"BTC\",  // Change to your desired currency\n    \"kind\": \"future\"  // Change to the appropriate kind if necessary\n  },\n  \"id\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.deribit.com/api/v2/private/get_positions",
+					"protocol": "https",
+					"host": [
+						"test",
+						"deribit",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"private",
+						"get_positions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

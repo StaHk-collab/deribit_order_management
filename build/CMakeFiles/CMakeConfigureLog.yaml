@@ -1,0 +1,1312 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/21/2024 8:06:45 PM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.79
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/21/2024 8:06:49 PM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.46
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-onh79i"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-onh79i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-onh79i'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f3190.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/21/2024 8:06:52 PM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\cmTC_f3190.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f3190.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\Debug\\".
+          Creating directory "cmTC_f3190.dir\\Debug\\cmTC_f3190.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f3190.dir\\Debug\\cmTC_f3190.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3190.dir\\Debug\\\\" /Fd"cmTC_f3190.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3190.dir\\Debug\\\\" /Fd"cmTC_f3190.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\Debug\\cmTC_f3190.exe" /INCREMENTAL /ILK:"cmTC_f3190.dir\\Debug\\cmTC_f3190.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-onh79i/Debug/cmTC_f3190.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-onh79i/Debug/cmTC_f3190.lib" /MACHINE:X64  /machine:x64 cmTC_f3190.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f3190.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\Debug\\cmTC_f3190.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\Debug\\cmTC_f3190.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f3190.dir\\Debug\\cmTC_f3190.tlog\\cmTC_f3190.write.1u.tlog" "cmTC_f3190.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\Debug\\cmTC_f3190.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f3190.dir\\Debug\\cmTC_f3190.tlog\\cmTC_f3190.write.1u.tlog" "cmTC_f3190.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\Debug\\cmTC_f3190.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f3190.dir\\Debug\\cmTC_f3190.tlog\\cmTC_f3190.write.1u.tlog" "cmTC_f3190.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f3190.dir\\Debug\\cmTC_f3190.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f3190.dir\\Debug\\cmTC_f3190.tlog\\cmTC_f3190.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onh79i\\cmTC_f3190.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.27
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-y9rwhu"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-y9rwhu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-y9rwhu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_25ab2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/21/2024 8:06:55 PM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\cmTC_25ab2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_25ab2.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\Debug\\".
+          Creating directory "cmTC_25ab2.dir\\Debug\\cmTC_25ab2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_25ab2.dir\\Debug\\cmTC_25ab2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25ab2.dir\\Debug\\\\" /Fd"cmTC_25ab2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25ab2.dir\\Debug\\\\" /Fd"cmTC_25ab2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\Debug\\cmTC_25ab2.exe" /INCREMENTAL /ILK:"cmTC_25ab2.dir\\Debug\\cmTC_25ab2.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-y9rwhu/Debug/cmTC_25ab2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-y9rwhu/Debug/cmTC_25ab2.lib" /MACHINE:X64  /machine:x64 cmTC_25ab2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_25ab2.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\Debug\\cmTC_25ab2.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\Debug\\cmTC_25ab2.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_25ab2.dir\\Debug\\cmTC_25ab2.tlog\\cmTC_25ab2.write.1u.tlog" "cmTC_25ab2.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\Debug\\cmTC_25ab2.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_25ab2.dir\\Debug\\cmTC_25ab2.tlog\\cmTC_25ab2.write.1u.tlog" "cmTC_25ab2.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\Debug\\cmTC_25ab2.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_25ab2.dir\\Debug\\cmTC_25ab2.tlog\\cmTC_25ab2.write.1u.tlog" "cmTC_25ab2.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_25ab2.dir\\Debug\\cmTC_25ab2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_25ab2.dir\\Debug\\cmTC_25ab2.tlog\\cmTC_25ab2.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y9rwhu\\cmTC_25ab2.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.13
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/22/2024 10:59:07 AM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:16.97
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/22/2024 10:59:25 AM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:04.97
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-d7zfzc"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-d7zfzc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-d7zfzc'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_343a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/22/2024 10:59:31 AM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\cmTC_343a7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_343a7.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\Debug\\".
+          Creating directory "cmTC_343a7.dir\\Debug\\cmTC_343a7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_343a7.dir\\Debug\\cmTC_343a7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_343a7.dir\\Debug\\\\" /Fd"cmTC_343a7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_343a7.dir\\Debug\\\\" /Fd"cmTC_343a7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\Debug\\cmTC_343a7.exe" /INCREMENTAL /ILK:"cmTC_343a7.dir\\Debug\\cmTC_343a7.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-d7zfzc/Debug/cmTC_343a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-d7zfzc/Debug/cmTC_343a7.lib" /MACHINE:X64  /machine:x64 cmTC_343a7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_343a7.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\Debug\\cmTC_343a7.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\Debug\\cmTC_343a7.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_343a7.dir\\Debug\\cmTC_343a7.tlog\\cmTC_343a7.write.1u.tlog" "cmTC_343a7.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\Debug\\cmTC_343a7.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_343a7.dir\\Debug\\cmTC_343a7.tlog\\cmTC_343a7.write.1u.tlog" "cmTC_343a7.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\Debug\\cmTC_343a7.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_343a7.dir\\Debug\\cmTC_343a7.tlog\\cmTC_343a7.write.1u.tlog" "cmTC_343a7.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_343a7.dir\\Debug\\cmTC_343a7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_343a7.dir\\Debug\\cmTC_343a7.tlog\\cmTC_343a7.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d7zfzc\\cmTC_343a7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.62
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-07zxcr"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-07zxcr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-07zxcr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_265fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/22/2024 10:59:36 AM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\cmTC_265fc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_265fc.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\Debug\\".
+          Creating directory "cmTC_265fc.dir\\Debug\\cmTC_265fc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_265fc.dir\\Debug\\cmTC_265fc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_265fc.dir\\Debug\\\\" /Fd"cmTC_265fc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_265fc.dir\\Debug\\\\" /Fd"cmTC_265fc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\Debug\\cmTC_265fc.exe" /INCREMENTAL /ILK:"cmTC_265fc.dir\\Debug\\cmTC_265fc.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-07zxcr/Debug/cmTC_265fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-07zxcr/Debug/cmTC_265fc.lib" /MACHINE:X64  /machine:x64 cmTC_265fc.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_265fc.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\Debug\\cmTC_265fc.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\Debug\\cmTC_265fc.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_265fc.dir\\Debug\\cmTC_265fc.tlog\\cmTC_265fc.write.1u.tlog" "cmTC_265fc.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\Debug\\cmTC_265fc.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_265fc.dir\\Debug\\cmTC_265fc.tlog\\cmTC_265fc.write.1u.tlog" "cmTC_265fc.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\Debug\\cmTC_265fc.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_265fc.dir\\Debug\\cmTC_265fc.tlog\\cmTC_265fc.write.1u.tlog" "cmTC_265fc.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_265fc.dir\\Debug\\cmTC_265fc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_265fc.dir\\Debug\\cmTC_265fc.tlog\\cmTC_265fc.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-07zxcr\\cmTC_265fc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.92
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/22/2024 11:00:36 AM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:05.28
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/22/2024 11:00:41 AM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.81
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-8yoa72"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-8yoa72"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-8yoa72'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_e8bf6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/22/2024 11:00:46 AM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\cmTC_e8bf6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e8bf6.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\Debug\\".
+          Creating directory "cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8bf6.dir\\Debug\\\\" /Fd"cmTC_e8bf6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8bf6.dir\\Debug\\\\" /Fd"cmTC_e8bf6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\Debug\\cmTC_e8bf6.exe" /INCREMENTAL /ILK:"cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-8yoa72/Debug/cmTC_e8bf6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-8yoa72/Debug/cmTC_e8bf6.lib" /MACHINE:X64  /machine:x64 cmTC_e8bf6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e8bf6.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\Debug\\cmTC_e8bf6.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\Debug\\cmTC_e8bf6.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.tlog\\cmTC_e8bf6.write.1u.tlog" "cmTC_e8bf6.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\Debug\\cmTC_e8bf6.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.tlog\\cmTC_e8bf6.write.1u.tlog" "cmTC_e8bf6.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\Debug\\cmTC_e8bf6.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.tlog\\cmTC_e8bf6.write.1u.tlog" "cmTC_e8bf6.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e8bf6.dir\\Debug\\cmTC_e8bf6.tlog\\cmTC_e8bf6.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8yoa72\\cmTC_e8bf6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:04.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-23yg2x"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-23yg2x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-23yg2x'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_6b209.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/22/2024 11:00:51 AM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\cmTC_6b209.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6b209.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\Debug\\".
+          Creating directory "cmTC_6b209.dir\\Debug\\cmTC_6b209.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6b209.dir\\Debug\\cmTC_6b209.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6b209.dir\\Debug\\\\" /Fd"cmTC_6b209.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /I"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6b209.dir\\Debug\\\\" /Fd"cmTC_6b209.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\Debug\\cmTC_6b209.exe" /INCREMENTAL /ILK:"cmTC_6b209.dir\\Debug\\cmTC_6b209.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-23yg2x/Debug/cmTC_6b209.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-23yg2x/Debug/cmTC_6b209.lib" /MACHINE:X64  /machine:x64 cmTC_6b209.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6b209.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\Debug\\cmTC_6b209.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\Debug\\cmTC_6b209.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6b209.dir\\Debug\\cmTC_6b209.tlog\\cmTC_6b209.write.1u.tlog" "cmTC_6b209.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\Debug\\cmTC_6b209.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6b209.dir\\Debug\\cmTC_6b209.tlog\\cmTC_6b209.write.1u.tlog" "cmTC_6b209.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\Debug\\cmTC_6b209.exe" "C:\\Users\\WELCOME\\Downloads\\GoQuant\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6b209.dir\\Debug\\cmTC_6b209.tlog\\cmTC_6b209.write.1u.tlog" "cmTC_6b209.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6b209.dir\\Debug\\cmTC_6b209.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6b209.dir\\Debug\\cmTC_6b209.tlog\\cmTC_6b209.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-23yg2x\\cmTC_6b209.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.94
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/22/2024 11:31:43 AM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:04.18
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10/22/2024 11:31:47 AM.
+      Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.82
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/3.30.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-o18cf3"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-o18cf3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-o18cf3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_484a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/22/2024 11:31:51 AM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\cmTC_484a9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_484a9.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\Debug\\".
+          Creating directory "cmTC_484a9.dir\\Debug\\cmTC_484a9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_484a9.dir\\Debug\\cmTC_484a9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_484a9.dir\\Debug\\\\" /Fd"cmTC_484a9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /I"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_484a9.dir\\Debug\\\\" /Fd"cmTC_484a9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\Debug\\cmTC_484a9.exe" /INCREMENTAL /ILK:"cmTC_484a9.dir\\Debug\\cmTC_484a9.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-o18cf3/Debug/cmTC_484a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-o18cf3/Debug/cmTC_484a9.lib" /MACHINE:X64  /machine:x64 cmTC_484a9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_484a9.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\Debug\\cmTC_484a9.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\Debug\\cmTC_484a9.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_484a9.dir\\Debug\\cmTC_484a9.tlog\\cmTC_484a9.write.1u.tlog" "cmTC_484a9.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\Debug\\cmTC_484a9.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_484a9.dir\\Debug\\cmTC_484a9.tlog\\cmTC_484a9.write.1u.tlog" "cmTC_484a9.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\Debug\\cmTC_484a9.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_484a9.dir\\Debug\\cmTC_484a9.tlog\\cmTC_484a9.write.1u.tlog" "cmTC_484a9.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_484a9.dir\\Debug\\cmTC_484a9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_484a9.dir\\Debug\\cmTC_484a9.tlog\\cmTC_484a9.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o18cf3\\cmTC_484a9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.32
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-p2iwbg"
+      binary: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-p2iwbg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-p2iwbg'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_6bb6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10/22/2024 11:31:55 AM.
+        Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\cmTC_6bb6d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6bb6d.dir\\Debug\\".
+          Creating directory "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\Debug\\".
+          Creating directory "cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6bb6d.dir\\Debug\\\\" /Fd"cmTC_6bb6d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /I"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6bb6d.dir\\Debug\\\\" /Fd"cmTC_6bb6d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\Debug\\cmTC_6bb6d.exe" /INCREMENTAL /ILK:"cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.ilk" /NOLOGO /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-p2iwbg/Debug/cmTC_6bb6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/WELCOME/Documents/GoQuant/deribit_order_management/build/CMakeFiles/CMakeScratch/TryCompile-p2iwbg/Debug/cmTC_6bb6d.lib" /MACHINE:X64  /machine:x64 cmTC_6bb6d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6bb6d.vcxproj -> C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\Debug\\cmTC_6bb6d.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\Debug\\cmTC_6bb6d.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.tlog\\cmTC_6bb6d.write.1u.tlog" "cmTC_6bb6d.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\Debug\\cmTC_6bb6d.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.tlog\\cmTC_6bb6d.write.1u.tlog" "cmTC_6bb6d.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\Debug\\cmTC_6bb6d.exe" "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.tlog\\cmTC_6bb6d.write.1u.tlog" "cmTC_6bb6d.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6bb6d.dir\\Debug\\cmTC_6bb6d.tlog\\cmTC_6bb6d.lastbuildstate".
+        Done Building Project "C:\\Users\\WELCOME\\Documents\\GoQuant\\deribit_order_management\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p2iwbg\\cmTC_6bb6d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.43
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
